@@ -16,6 +16,12 @@ It is an entry to the hackpad program
 ## PCB
 Here is the pcb i designed for my macropad
 
+Schematic
+<img src=assets/Schematic_TW_v1.0.png alt="Schematic" width="400">
+
+PCB
+<img src=assets/Pcb_TW_v1.0.png alt="PCB" width="400">
+
 ## Firmware
 
 ## BOM
