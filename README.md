@@ -18,11 +18,11 @@ Here is the pcb i designed for my macropad
 
 Schematic:
 
-<img src=Assets/Schematic_TW_v1.0.png alt="Schematic" width="400">
+<img src=Assets/Schematic_TW_v1.0.png alt="Schematic" width="500">
 
 PCB:
 
-<img src=Assets/Pcb_TW_v1.0.png alt="PCB" width="400">
+<img src=Assets/Pcb_TW_v1.0.png alt="PCB" width="500">
 
 ## Firmware
 
@@ -31,10 +31,11 @@ I am pretty sure this is everything
 
 - 7x Cherry MX Switches
 - 7x DSA keycaps
-- x Through-hole 1N4148 Diodes
+- 9x Through-hole 1N4148 Diodes
 - 11x SK6812 MINI-E LEDs
 - 2x EC11 Rotary Encoders
 - 1x Seeed XIAO RP2040
 - 1x Case (x printed parts)
+- x Case mounting parts
 
 ## Extra
