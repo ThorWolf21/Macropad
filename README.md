@@ -12,6 +12,7 @@ It is an entry to the hackpad program
 
 ## CAD Model
 
+Work in progress
 
 ## PCB
 Here is the pcb i designed for my macropad
@@ -26,6 +27,8 @@ PCB:
 
 ## Firmware
 
+Planned to do later
+
 ## BOM
 I am pretty sure this is everything
 
@@ -37,5 +40,3 @@ I am pretty sure this is everything
 - 1x Seeed XIAO RP2040
 - 1x Case (x printed parts)
 - x Case mounting parts
-
-## Extra
