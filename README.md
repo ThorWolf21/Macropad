@@ -16,16 +16,25 @@ It is an entry to the hackpad program
 ## PCB
 Here is the pcb i designed for my macropad
 
-Schematic
+Schematic:
 
 <img src=Assets/Schematic_TW_v1.0.png alt="Schematic" width="400">
 
-PCB
+PCB:
 
 <img src=Assets/Pcb_TW_v1.0.png alt="PCB" width="400">
 
 ## Firmware
 
 ## BOM
+I am pretty sure this is everything
+
+- 7x Cherry MX Switches
+- 7x DSA keycaps
+- x Through-hole 1N4148 Diodes
+- 11x SK6812 MINI-E LEDs
+- 2x EC11 Rotary Encoders
+- 1x Seeed XIAO RP2040
+- 1x Case (x printed parts)
 
 ## Extra
