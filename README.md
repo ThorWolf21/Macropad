@@ -9,7 +9,9 @@ It is an entry to the hackpad program
 ## Features
 - 3D printed case
 - 2 EC11 Rotary encoders for volume and others
-- 11 SK6812MINI-E leds. 7 for per key lighting and 4 for status/ambient lighting
+- 11 SK6812MINI-E leds. 
+ - 7 for per key lighting
+ - 4 for status/ambient lighting
 - 7 keys
 
 ---
