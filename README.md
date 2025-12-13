@@ -17,9 +17,7 @@ It is an entry to the hackpad program
 
 ## CAD Model
 
-Done  but not testfitted
-
-(dont know how)
+Done and sorta testfitted
 
 ---
 
