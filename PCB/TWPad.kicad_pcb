@@ -113,355 +113,6 @@
 	(net 32 "col_0")
 	(net 33 "col_2")
 	(net 34 "GND")
-	(net 35 "unconnected-(U2-GND-Pad3)")
-	(net 36 "unconnected-(U2-VCC-Pad5)")
-	(net 37 "unconnected-(U2-Y-Pad4)")
-	(net 38 "unconnected-(U2-A-Pad2)")
-	(net 39 "unconnected-(U2-NC-Pad1)")
-	(footprint "Package_TO_SOT_SMD:SOT-23-5"
-		(layer "F.Cu")
-		(uuid "01953137-8675-4cce-a98d-4aa352eabc2e")
-		(at 2.075 1.9)
-		(descr "SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py")
-		(tags "SOT TO_SOT_SMD")
-		(property "Reference" "U2"
-			(at 0 -2.4 0)
-			(layer "F.SilkS")
-			(uuid "f5d704d1-739f-4c9f-a2bc-3d3280453ec7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Value" "SN74LV1T34DBV"
-			(at 0 2.4 0)
-			(layer "F.Fab")
-			(uuid "67f80964-3bab-4bcd-8bc2-820c85b0a233")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lv1t34.pdf"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b91405de-af6a-4717-b14a-4f62e72edb21")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Description" "Single Power Supply, Single Buffer GATE, CMOS Logic, Level Shifter, SOT-23-5"
-			(at 0 0 0)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "681f3221-9709-4b8e-ad4d-e15ce7928a74")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property ki_fp_filters "SOT?23*")
-		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
-		(attr smd)
-		(fp_line
-			(start -0.91 -1.56)
-			(end 0.91 -1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "69da131d-b178-4ab6-9787-714265105b21")
-		)
-		(fp_line
-			(start -0.91 -1.51)
-			(end -0.91 -1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "3cf50f76-87f5-4f4a-b783-566e624c8c2a")
-		)
-		(fp_line
-			(start -0.91 1.56)
-			(end -0.91 1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "338bd6ee-c212-4a03-83dd-5fd0b2a48b82")
-		)
-		(fp_line
-			(start 0.91 -1.56)
-			(end 0.91 -1.51)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "d42698e0-cc20-4d4d-9428-a9c55e049eea")
-		)
-		(fp_line
-			(start 0.91 -0.39)
-			(end 0.91 0.39)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "4216acce-07cf-4571-b0c2-2bcfe646f274")
-		)
-		(fp_line
-			(start 0.91 1.51)
-			(end 0.91 1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "db0815c9-161b-4f0f-9dde-101ca869b270")
-		)
-		(fp_line
-			(start 0.91 1.56)
-			(end -0.91 1.56)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "54cc68a2-e508-4717-aa65-0cee4ee99713")
-		)
-		(fp_poly
-			(pts
-				(xy -1.45 -1.51) (xy -1.69 -1.84) (xy -1.21 -1.84)
-			)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(fill yes)
-			(layer "F.SilkS")
-			(uuid "304daf1e-d2e0-43f3-95e9-64fcc9c3befa")
-		)
-		(fp_line
-			(start -2.05 -1.5)
-			(end -1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2ce39c71-8678-4c30-8ca0-842616ef8b6b")
-		)
-		(fp_line
-			(start -2.05 1.5)
-			(end -2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "8d23540c-d3fd-42a0-ac30-8b4b347b5978")
-		)
-		(fp_line
-			(start -1.05 -1.7)
-			(end 1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e4ccacd9-e5b7-422c-8779-16c04e47ef92")
-		)
-		(fp_line
-			(start -1.05 -1.5)
-			(end -1.05 -1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "f901c1e7-5960-491c-871b-3d88877fc95e")
-		)
-		(fp_line
-			(start -1.05 1.5)
-			(end -2.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1e0c9308-df8f-41bc-b6fb-b7a1701f6cf3")
-		)
-		(fp_line
-			(start -1.05 1.7)
-			(end -1.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "1d777cf1-f76e-40fc-9f33-5004606f9871")
-		)
-		(fp_line
-			(start 1.05 -1.7)
-			(end 1.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e7f0d7f3-1842-4023-bdc7-487563ce0797")
-		)
-		(fp_line
-			(start 1.05 -1.5)
-			(end 2.05 -1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "e6fb978b-6495-43ba-b9f9-184404279bc2")
-		)
-		(fp_line
-			(start 1.05 1.5)
-			(end 1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "40726d42-3ad8-47e3-b77f-fcb0f09a1363")
-		)
-		(fp_line
-			(start 1.05 1.7)
-			(end -1.05 1.7)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "7038edbb-e909-48b7-a5ea-f041699da330")
-		)
-		(fp_line
-			(start 2.05 -1.5)
-			(end 2.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "9ee6f780-f131-4789-8e13-b25f7abb2796")
-		)
-		(fp_line
-			(start 2.05 1.5)
-			(end 1.05 1.5)
-			(stroke
-				(width 0.05)
-				(type solid)
-			)
-			(layer "F.CrtYd")
-			(uuid "2d6c9238-9e4c-411b-93cb-94ef6ba76e53")
-		)
-		(fp_poly
-			(pts
-				(xy -0.8 -1.05) (xy -0.8 1.45) (xy 0.8 1.45) (xy 0.8 -1.45) (xy -0.4 -1.45)
-			)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(fill no)
-			(layer "F.Fab")
-			(uuid "720ca495-85f6-40aa-aa85-e3f01429335e")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 90)
-			(layer "F.Fab")
-			(uuid "98f4b786-8be4-402d-aa51-894e2e2e0592")
-			(effects
-				(font
-					(size 0.72 0.72)
-					(thickness 0.11)
-				)
-			)
-		)
-		(pad "1" smd roundrect
-			(at -1.1375 -0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 39 "unconnected-(U2-NC-Pad1)")
-			(pinfunction "NC")
-			(pintype "no_connect")
-			(uuid "cfe68cd8-7f0b-4c85-86ce-9eb6b781476a")
-		)
-		(pad "2" smd roundrect
-			(at -1.1375 0)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 38 "unconnected-(U2-A-Pad2)")
-			(pinfunction "A")
-			(pintype "input")
-			(uuid "c5279f57-8167-4862-bbfb-ae62479e45c5")
-		)
-		(pad "3" smd roundrect
-			(at -1.1375 0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 35 "unconnected-(U2-GND-Pad3)")
-			(pinfunction "GND")
-			(pintype "power_in")
-			(uuid "1c6cab8f-5a96-4a51-ac38-2d64ec2b9570")
-		)
-		(pad "4" smd roundrect
-			(at 1.1375 0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 37 "unconnected-(U2-Y-Pad4)")
-			(pinfunction "Y")
-			(pintype "output")
-			(uuid "95373e41-319d-4441-81b3-35d2229dc6e8")
-		)
-		(pad "5" smd roundrect
-			(at 1.1375 -0.95)
-			(size 1.325 0.6)
-			(layers "F.Cu" "F.Mask" "F.Paste")
-			(roundrect_rratio 0.25)
-			(net 36 "unconnected-(U2-VCC-Pad5)")
-			(pinfunction "VCC")
-			(pintype "power_in")
-			(uuid "7e9092a2-89be-4b4a-850c-5a1856ea980b")
-		)
-		(embedded_fonts no)
-		(model "${KICAD9_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-23-5.step"
-			(offset
-				(xyz 0 0 0)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz 0 0 0)
-			)
-		)
-	)
 	(footprint "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 		(layer "F.Cu")
 		(uuid "134f0fac-b65c-4137-b2df-4b4a0a3baeb5")
@@ -518,7 +169,7 @@
 		)
 		(path "/5ee7d551-a546-40a6-818f-09dae62e764e")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -803,7 +454,7 @@
 		)
 		(path "/b73ad4cb-2ea4-4974-bdbf-4a9e8910d4ea")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -1089,7 +740,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/281f589d-d3d4-4cec-9283-f41612e6eb1b")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.5 8.4)
@@ -1504,7 +1155,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/014a8685-ff0a-4570-9fa5-3256680bb0a9")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -1929,7 +1580,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/d6388b61-4d3a-466d-b168-7a3459e150b3")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -2354,7 +2005,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/d46b58a5-5cc0-4d31-94c8-7f5e2abd01da")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -2779,7 +2430,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/a1d27e22-c0be-4ef5-95b9-793d7ba98261")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -3204,7 +2855,7 @@
 		)
 		(path "/6888dc69-4d50-462e-892f-299d277e4622")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -8.509 -8.89)
@@ -4142,7 +3793,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/bc86c6d5-29b0-4697-a4d4-48fb4ce4370a")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -4567,7 +4218,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/b9aecf80-ef97-4dc5-ada3-cbe4d733f752")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -4993,7 +4644,7 @@
 		(property ki_fp_filters "RotaryEncoder*Switch*")
 		(path "/72615a64-437f-4f30-aef4-fdf2926dc567")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.5 8.4)
@@ -5408,7 +5059,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/66ded542-5404-499a-a166-4f33fbc98e2f")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -5833,7 +5484,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/3906f8f6-88b1-4f36-85aa-ae409bcc1667")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -6258,7 +5909,7 @@
 		)
 		(path "/85b07f4b-f229-4879-b7b3-ae5bee611e16")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -6543,7 +6194,7 @@
 		)
 		(path "/ecae9d7e-678d-4e38-882f-64f9a7654e3d")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -6828,7 +6479,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/99499cdf-372d-47a7-b6da-8a7538935047")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -7253,7 +6904,7 @@
 		)
 		(path "/ddd5ca64-f8df-4f9f-b0a7-7584dcaecf40")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -7538,7 +7189,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/88ac75bc-73bd-467b-9dea-6c87cca818c4")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -7963,7 +7614,7 @@
 		(property ki_fp_filters "LED*SK6812MINI*PLCC*3.5x3.5mm*P1.75mm*")
 		(path "/5eb76a8c-c710-4682-8bf5-70c2a4d75d5b")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_poly
 			(pts
@@ -8388,7 +8039,7 @@
 		)
 		(path "/e6207f67-3e5f-4e88-aa1b-f3b6958eb3e0")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -8673,7 +8324,7 @@
 		)
 		(path "/c57f74ab-0a00-478b-bd06-564e81254475")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -9.525 -1.905)
@@ -8989,7 +8640,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/c360c26b-4656-4d06-a607-898911da6219")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -9283,7 +8934,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/d37db52d-7275-47b7-a572-f44ce734b57b")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -9577,7 +9228,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/797f144f-782b-4020-9940-7a9610b67bee")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -9871,7 +9522,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/ba612c74-d047-46fc-abb0-9034c365ba24")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -10165,7 +9816,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/40a0e3cf-19ed-47c5-9fe0-4e41c1c8b809")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -10459,7 +10110,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/8865bc33-e91b-4a83-aeac-0f16bf60e8e8")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -10753,7 +10404,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/f198b62e-8ecf-46d2-8929-e6226b42369b")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -11047,7 +10698,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/4dafe3e5-0ca5-4d10-9f67-96e9d5982c50")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -11341,7 +10992,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/86191090-afde-4a11-b839-e9f6a24271b6")
 		(sheetname "/")
-		(sheetfile "compactmacropad.kicad_sch")
+		(sheetfile "TWPad.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 6.58 0)
@@ -11548,6 +11199,26 @@
 			)
 		)
 	)
+	(gr_line
+		(start 112.572867 96.509139)
+		(end 119.716617 96.509139)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "018c5aa4-bd11-4d5d-8e53-68fd9d9bd086")
+	)
+	(gr_line
+		(start 116.144742 92.937264)
+		(end 116.144742 103.652889)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "43c60891-b9b7-4e90-ace1-ca82caab7fde")
+	)
 	(gr_arc
 		(start 182.819742 110.151639)
 		(mid 181.355265 113.687163)
@@ -11631,6 +11302,30 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "d1813643-557b-418d-ad69-7a6cda05217f")
+	)
+	(gr_text "TWPad by JFKB"
+		(at 117.335367 52.456014 0)
+		(layer "F.SilkS")
+		(uuid "5df99f1c-c4ac-43c3-b61c-e2f93582b6f5")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "RP Here"
+		(at 100.666617 69.124764 0)
+		(layer "F.SilkS")
+		(uuid "d8a85d25-c84a-4a3d-a62b-8b4ff4286231")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 120.907242 73.172889)
@@ -13959,6 +13654,10 @@
 			"d4ea6ace-0244-49e5-bfaa-ad58eed8da18" "f225c198-b50d-4e4d-886b-8862e2aa0de7"
 			"fa7f61f6-a0f7-43d4-b33c-14f9ff11a444"
 		)
+	)
+	(group ""
+		(uuid "7482f443-68d8-4bcf-b654-e6465e88fed3")
+		(members "018c5aa4-bd11-4d5d-8e53-68fd9d9bd086" "43c60891-b9b7-4e90-ace1-ca82caab7fde")
 	)
 	(embedded_fonts no)
 )

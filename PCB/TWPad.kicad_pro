@@ -572,7 +572,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "compactmacropad.kicad_pro",
+    "filename": "TWPad.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -611,7 +611,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "TWPad.stl",
       "svg": "",
       "vrml": ""
     },
