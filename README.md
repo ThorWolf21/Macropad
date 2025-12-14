@@ -49,7 +49,7 @@ PCB:
 
 ## Firmware
 
-Planned to do later
+Planned to do later probably kmk
 
 ---
 
