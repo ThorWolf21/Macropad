@@ -69,4 +69,5 @@ I am pretty sure this is everything:
 - 2x EC11 Rotary Encoders
 - 1x Seeed XIAO RP2040
 - 1x Case (x printed parts)
-- x Case mounting parts
+- 4x M3x16mm screws
+- 4x M3x5mx4mm heatset inserts
