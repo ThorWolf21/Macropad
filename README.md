@@ -49,7 +49,12 @@ PCB:
 
 ## Firmware
 
-Done kmk w basic test layout btns writing 1-9
+KMK
+
+3 layers 7 Btns 1 RotEnc per layer 
+one rotary encoder is used for layerswitching
+
+I have not finalized the macros because i dont know what i want
 
 ---
 
