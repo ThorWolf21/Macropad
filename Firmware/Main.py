@@ -40,18 +40,21 @@ encoder_handler.pins = (
 # Map encoder actions to keycodes
 # layer format: Layer 0, Layer 1, Layer 2, ...
 encoder_handler.map = [
-    # Layer 0 (base layer)
-    (
+    ( # Layer 0 (base layer)
+        (KC.NO, KC.NO, KC.NO), # Encoder 1 actions (Layer switching)
+        (KC.LCTL(KC.UP), KC.LCTL(KC.DOWN), KC.NO)  # Encoder 2 actions (Scroolling)
+    )
+    ( # Layer 1
+        (KC.NO, KC.NO, KC.NO), # Encoder 1 actions (Layer switching)
+        (KC.PLUS, KC.MINUS, KC.NO)  # Encoder 2 actions (zooming in cad)
+    )
+    ( # Layer 2
         (KC.NO, KC.NO, KC.NO), # Encoder 1 actions (Layer switching)
         (KC.VOLU, KC.VOLD, KC.NO)  # Encoder 2 actions (Volume control)
     )
-    (
+    ( # Layer 3
         (KC.NO, KC.NO, KC.NO), # Encoder 1 actions (Layer switching)
-        (KC.NO, KC.NO, KC.NO)  # Encoder 2 actions (no action)
-    )
-    (
-        (KC.NO, KC.NO, KC.NO), # Encoder 1 actions (Layer switching)
-        (KC.NO, KC.NO, KC.NO)  # Encoder 2 actions (no action)
+        (KC.LCTL(KC.EQUAL), KC.LCTL(KC.MINUS), KC.NO)  # Encoder 2 actions (no action)
     )
 ]
 
@@ -80,23 +83,29 @@ keyboard.modules.append(encoder_handler)
 # Define the keymap for the keyboard
 # The keymap is not done yet i dont know what i want on it
 keyboard.keymap = [
-    # Layer 0 (base layer)
+    # Layer 0 (base layer) coding layer
     [
-        KC.Q,    KC.W,    KC.MUTE,
-        KC.A,    KC.S,    KC.D,
-        KC.Z,    KC.X,    KC.C,
+        KC.LCTL(KC.LSFT(KC.P)),    KC.LCTL(KC.S),    KC.F12,
+        KC.LCTL(KC.C),    KC.LCTL(KC.V),    KC.LCTL(KC.SLSH),
+        KC.LCTL(KC.Z),    KC.F5,    KC.LCTL(KC.F),
     ],
-    # Layer 1
+    # Layer 1 Fusion 360 layer
     [
-        KC.F1,   KC.F2,   KC.F3,
-        KC.F4,   KC.F5,   KC.F6,
-        KC.F7,   KC.F8,   KC.F9,
+        KC.HOME,   KC.S,   KC.LSFT(KC.F),
+        KC.E,   KC.F,   KC.O,
+        KC.R,   KC.Q,   KC.V,
     ],
-    # Layer 2
+    # Layer 2 Gaming layer
     [
-        KC.N1,   KC.N2,   KC.N3,
-        KC.N4,   KC.N5,   KC.N6,
-        KC.N7,   KC.N8,   KC.N9,    
+    KC.LCTL(KC.LSFT(KC.ESC)),   KC.MUTE,   KC.MPLY,
+        KC.F13,   KC.TAB,   KC.PSCR,
+        KC.M,   KC.MPRV,   KC.MNXT,    
+    ],
+        # Layer 3 Advanced Coding layer
+    [
+        KC.LCTL(KC.T),   KC.LCTL(KC.LSFT(KC.F)),   KC.LCTL(KC.BSLS),
+        KC.LCTL(KC.A),   KC.LCTL(KC.D),   KC.F2,
+        KC.LCTL(KC.P),   KC.LCTL(KC.G),   KC.LCTL(KC.DOT),    
     ],
 ]
 
